@@ -28,7 +28,6 @@ from .roi_pool import RoIPool, roi_pool
 from .saconv import SAConv2d
 from .sync_bn import SyncBatchNorm
 from .tin_shift import TINShift, tin_shift
-from .upfirdn2d import upfirdn2d
 
 __all__ = [
     'bbox_overlaps', 'CARAFE', 'CARAFENaive', 'CARAFEPack', 'carafe',

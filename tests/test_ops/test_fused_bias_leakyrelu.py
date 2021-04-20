@@ -1,6 +1,6 @@
 import pytest
 import torch
-from torch.autograd import gradcheck, gradgradcheck
+from torch.autograd import gradcheck # gradgradcheck
 
 
 class TestFusedBiasLeakyReLU(object):

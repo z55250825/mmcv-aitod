@@ -8,7 +8,7 @@ from mmcv.utils import deprecated_api_warning
 from ..utils import ext_loader
 
 ext_module = ext_loader.load_ext(
-    '_ext', ['nms', 'softnms', 'nms_match', 'nms_rotated', 'wassersteinnms'])
+    '_ext', ['nms', 'softnms', 'nms_match', 'nms_rotated'])
 
 
 # This function is modified from: https://github.com/pytorch/vision/
